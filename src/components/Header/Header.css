@@ -1,0 +1,14 @@
+.HeaderLink{
+    height: 100px;
+    /* background-color: rgb(83, 159, 217); */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.homeImg {
+    height: auto;
+    width: auto;
+
+
+}

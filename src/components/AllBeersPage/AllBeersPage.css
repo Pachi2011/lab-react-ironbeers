@@ -1,0 +1,48 @@
+.beerCard {
+    display: flex;
+    flex-direction: row;
+    padding: 45px;
+    border: 1px solid rgba(196, 196, 196, 0.792);
+    justify-content: left;
+}
+
+.beerInfo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.beerTagline {
+    color: gray;
+    padding: 10px;
+    text-align: left;
+}
+
+
+p{
+    font-weight: 600;
+}
+
+.beersListImgs{
+
+    height: 200px;
+    margin-right: 40px;
+}
+
+.singleBeerLink {
+
+    text-decoration: none;
+}
+
+.singleBeerName{
+
+    color: rgb(83, 159, 217);
+}
+
+.allBeersTitle{
+
+    text-align: left;
+    padding-left: 280px;
+    color:rgb(83, 159, 217);
+}
