@@ -40,8 +40,8 @@ function HomePage() {
       </div>
       <div className="homePageCard">
         <img className="homePageImg" src={NewBeerImg} alt="" />
-        <Link to="/new-beer" className="homePageLink">
-          All Beers
+        <Link to="/new" className="homePageLink">
+          Add Beers
         </Link>
         <p>
           Pellentesque tincidunt, diam a interdum consectetur, mauris leo

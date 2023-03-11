@@ -57,62 +57,63 @@ function AddNewBeerPage() {
       <h3>Add New Beer</h3>
 
       <form onSubmit={handleSubmit}>
-        <label>Name:</label>
+        <label>Name:
         <input
           type="text"
           name="name"
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
+        </label>
 
-        <label>Tagline:</label>
+        <label>Tagline:
         <input
           type="text"
           name="tagline"
           onChange={(e) => setTagline(e.target.value)}
           value={tagline}
         />
-
-        <label>Description:</label>
+        </label>
+        <label>Description:
         <input
           type="text"
           name="description"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
         />
-
-        <label>First brewed:</label>
+        </label>
+        <label>First brewed:
         <input
           type="text"
           name="first_brewed"
           onChange={(e) => setFirstBrewed(e.target.value)}
           value={firstBrewed}
         />
-
-        <label>Brewers tips:</label>
+        </label>
+        <label>Brewers tips:
         <input
           type="text"
           name="brewers_tips"
           onChange={(e) => setBrewersTips(e.target.value)}
           value={brewersTips}
         />
-
-        <label>Attenuation level:</label>
+        </label>
+        <label>Attenuation level:
         <input
           type="number"
           name="attenuation_level"
           onChange={(e) => setAttenuationLevel(e.target.value)}
           value={attenuationLevel}
         />
-
-        <label>Contributed by:</label>
+          </label>
+        <label>Contributed by:
         <input
           type="text"
           name="contributed_by"
           onChange={(e) => setContributedBy(e.target.value)}
           value={contributedBy}
         />
-
+        </label>
         <button type="submit">Add Beer</button>
       </form>
     </div>
